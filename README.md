@@ -1,4 +1,4 @@
-# Detecting Fake Images using Convolutional Neural Networks (CNNs)
+# Detecting Fake Images using<br> Convolutional Neural Networks (CNNs)
 
 ## Author
 Violet Yousif
