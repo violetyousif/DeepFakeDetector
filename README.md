@@ -3,18 +3,20 @@
 ## Author
 Violet Yousif
 
-## Project Overview
+# Overview
+## Project Summary
 This project develops a Convolutional Neural Network (CNN) to detect fake images using deep learning techniques.
 The model utilizes transfer learning with EfficientNetV2B0, data augmentation, and fine-tuning strategies to improve classification accuracy.
 
-## Tools & Technologies Overview:
+## Tools & Technologies:
 **Programming:** Python<br>
 **Deep Learning Frameworks:** TensorFlow, Keras<br>
 **Model Architectures:** EfficientNetV2B0, Custom CNN<br>
 **Data Handling:** Pandas, NumPy<br>
 **Image Processing:** OpenCV, Matplotlib, ImageDataGenerator<br>
 **Cloud & Storage:** Google Colab, Google Drive<br>
-## Methods & Techniques Overview:<br>
+
+## Methods & Techniques:<br>
 **Convolutional Neural Networks (CNNs)** for image classification<br>
 **Transfer Learning & Feature Extraction** with EfficientNetV2B0<br>
 **Data Augmentation** (flipping, rotation, zoom, brightness adjustment)<br>
@@ -22,7 +24,6 @@ The model utilizes transfer learning with EfficientNetV2B0, data augmentation, a
 **Loss Function:** Binary Crossentropy<br>
 **Optimizers:** Adam, RMSprop<br>
 **Performance Evaluation:** Accuracy & Loss Plots, Heatmaps<br>
-
 
 ## Dataset
 The dataset contains two categories:<br>
