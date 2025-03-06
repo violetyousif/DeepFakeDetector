@@ -7,16 +7,33 @@ Violet Yousif
 This project develops a Convolutional Neural Network (CNN) to detect fake images using deep learning techniques.
 The model utilizes transfer learning with EfficientNetV2B0, data augmentation, and fine-tuning strategies to improve classification accuracy.
 
+## Tools & Technologies Overview:
+**Programming:** Python<br>
+**Deep Learning Frameworks:** TensorFlow, Keras<br>
+**Model Architectures:** EfficientNetV2B0, Custom CNN<br>
+**Data Handling:** Pandas, NumPy<br>
+**Image Processing:** OpenCV, Matplotlib, ImageDataGenerator<br>
+**Cloud & Storage:** Google Colab, Google Drive<br>
+## Methods & Techniques Overview:<br>
+**Convolutional Neural Networks (CNNs)** for image classification<br>
+**Transfer Learning & Feature Extraction** with EfficientNetV2B0<br>
+**Data Augmentation** (flipping, rotation, zoom, brightness adjustment)<br>
+**Fine-Tuning Pretrained Models** for performance improvement<br>
+**Loss Function:** Binary Crossentropy<br>
+**Optimizers:** Adam, RMSprop<br>
+**Performance Evaluation:** Accuracy & Loss Plots, Heatmaps<br>
+
+
 ## Dataset
-The dataset contains two categories:
-✔ Real Images
-✔ Fake Images
+The dataset contains two categories:<br>
+✔ Real Images<br>
+✔ Fake Images<br>
 
 ### Dataset Structure:
-train/real/ - Contains real images for training.<br>
-train/fake/ - Contains fake images for training.<br>
-valid/ - Contains images for validation.<br>
-test/ - Contains images for final model testing.<br>
+```train/real/``` - Contains real images for training.<br>
+```train/fake/``` - Contains fake images for training.<br>
+```valid/``` - Contains images for validation.<br>
+```test/``` - Contains images for final model testing.<br>
 ### Data Source:
 The dataset is retrieved from Google Drive, with metadata stored in a CSV file (data.csv).
 
@@ -64,8 +81,8 @@ The dataset is retrieved from Google Drive, with metadata stored in a CSV file (
 ## Running the Project
 1. Upload the dataset to Google Drive.
 2. Run the Jupyter Notebook in Google Colab.
-3. Install dependencies using:
-   _pip install tensorflow keras numpy pandas matplotlib_
+3. Install dependencies using:<br>
+   ```pip install tensorflow keras numpy pandas matplotlib```<br>
 4. Modify dataset paths in the script (main_folder).
 5. Execute code cells sequentially to train and test the model.
 
